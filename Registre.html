@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!-- Tailwind CSS CDN Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+
+   <!-- Navbar -->
+<div class="container relative min-h-screen py-3 px-28" style="background-image: url('./IMG/Back.jpg'); background-position: center; background-size: cover;">
+    <!-- Content here -->
+
+    <nav class="flex items-center justify-between mb-5">
+        <!-- Logo -->
+        <img src="IMG/logo (2).png" class="w-56 cursor-pointer">
+
+        <!-- Navigation Links -->
+        <ul class="flex-1 text-center">
+            <li class="inline-block px-5 list-none">
+                <a href="#" class="text-white no-underline hover:text-yellow-300">Home</a>
+            </li>
+            <li class="inline-block px-5 list-none">
+                <a href="#about" class="text-white no-underline hover:text-yellow-300">About</a>
+            </li>
+            <li class="inline-block px-5 list-none">
+                <a href="#features" class="text-white no-underline hover:text-yellow-300">Features</a>
+            </li>
+            <li class="inline-block px-5 list-none">
+                <a href="#contact" class="text-white no-underline hover:text-yellow-300">Contact</a>
+            </li>
+        </ul>
+
+        <!-- Cart Icon and Action Buttons -->
+        <div class="flex items-center space-x-4">
+            <!-- Cart Icon -->
+            <img src="IMG/cart1.png" class="w-8 cursor-pointer">
+
+            <!-- Login Button -->
+            <a href="#login" class="px-4 py-2 text-sm font-medium text-white bg-yellow-400 border border-yellow-400 rounded hover:bg-transparent hover:text-yellow-400">
+                Login
+            </a>
+            <!-- Register Button -->
+            <a href="#register" class="px-4 py-2 text-sm font-medium text-yellow-400 border border-yellow-400 rounded hover:bg-yellow-400 hover:text-white">
+                Register
+            </a>
+        </div>
+    </nav>
+
+
+
+     <!-- Login Form Section -->
+     <div class="flex items-center justify-center min-h-screen py-12">
+
+        <div class="w-full max-w-sm p-8 bg-white shadow-md rounded-xl">
+            <h2 class="mb-8 text-3xl font-semibold text-center text-gray-800">Register</h2>
+
+            <form action="#" method="POST">
+                <!-- Full Name -->
+                <div class="mb-4">
+                    <label for="fullName" class="block text-sm font-medium text-gray-700">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" required 
+                        class="mt-1 px-4 py-2 w-full border rounded-lg focus:ring-yellow-400 focus:border-yellow-400">
+                </div>
+
+                <!-- Email -->
+                <div class="mb-4">
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+                    <input type="email" id="email" name="email" required 
+                        class="mt-1 px-4 py-2 w-full border rounded-lg focus:ring-yellow-400 focus:border-yellow-400">
+                </div>
+
+                <!-- Password -->
+                <div class="mb-4">
+                    <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
+                    <input type="password" id="password" name="password" required 
+                        class="mt-1 px-4 py-2 w-full border rounded-lg focus:ring-yellow-400 focus:border-yellow-400">
+                </div>
+
+                <!-- Confirm Password -->
+                <div class="mb-6">
+                    <label for="confirmPassword" class="block text-sm font-medium text-gray-700">Confirm Password</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required 
+                        class="mt-1 px-4 py-2 w-full border rounded-lg focus:ring-yellow-400 focus:border-yellow-400">
+                </div>
+
+                <!-- Register Button -->
+                <div class="text-center">
+                    <button type="submit" 
+                        class="w-full py-3 px-4 bg-yellow-400 text-white font-semibold rounded-lg hover:bg-yellow-500 focus:ring-2 focus:ring-yellow-400">
+                        Register
+                    </button>
+                </div>
+
+                <!-- Already have an account -->
+                <p class="mt-4 text-sm text-center text-gray-600">
+                    Already have an account? <a href="#" class="text-yellow-400 hover:underline">Login</a>
+                </p>
+            </form>
+
+            
+        </div>
+    </div>
+</div>
+
+   
+
+                
+
+</body>
+</html>

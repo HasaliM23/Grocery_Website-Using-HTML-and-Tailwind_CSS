@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groceries</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="/IMG/android-chrome-192x192.png">
+
+</head>
+<body>
+<!-- Hero Section -->
+<div class="container min-h-screen bg-[url('./IMG/Back.jpg')] bg-center bg-cover px-28 py-3 relative">
+    <nav class="flex items-center mb-5">
+        <!-- Logo -->
+        <img src="IMG/logo (2).png" class="w-56 cursor-pointer">
+        
+        <!-- Navigation Links -->
+        <ul class="flex-1 text-center">
+            <li class="inline-block px-5 list-none">
+                <a href="#" class="px-2 text-white no-underline hover:text-yellow-300">Home</a>
+            </li>
+            <li class="inline-block px-5 list-none">
+                <a href="#about" class="px-2 text-white no-underline hover:text-yellow-300">About</a>
+            </li>
+            <li class="inline-block px-5 list-none">
+                <a href="#features" class="px-2 text-white no-underline hover:text-yellow-300">Features</a>
+            </li>
+            <li class="inline-block px-5 list-none">
+                <a href="#contact" class="px-2 text-white no-underline hover:text-yellow-300">Contact</a>
+            </li>
+        </ul>
+        
+        <!-- Cart Icon -->
+        <img src="IMG/cart1.png" class="w-8 mr-4 cursor-pointer">
+
+        <!-- Login and Register Buttons -->
+<div class="space-x-3">
+    <!-- Login Button -->
+    <a href="Login.html" class="px-4 py-2 text-sm font-medium text-white bg-yellow-400 border border-yellow-400 rounded hover:bg-transparent hover:text-yellow-400">
+        Login
+    </a>
+
+    <!-- Register Button -->
+    <a href="Registre.html" class="px-4 py-2 text-sm font-medium text-yellow-400 border border-yellow-400 rounded hover:bg-yellow-400 hover:text-white">
+        Register
+    </a>
+</div>
+
+
+    </nav>
+
+    <!-- Hero Content -->
+    <div class="max-w-xl text-white mt-28">
+        <h1 class="text-5xl font-semibold leading-normal">
+            Groceries<br>Delivery in <span class="font-light">15 mins</span>
+        </h1>
+        <p class="mt-4">
+            "Freshness at Your Doorstep! Discover a wide range of fresh fruits, vegetables, and daily essentials, delivered with care. Shop now and experience convenience, quality, and savings—all in one place!"
+        </p>
+        <div class="mt-8">
+            <a href="Order_now.html" class="inline-block px-8 py-3 mr-4 font-medium duration-300 bg-yellow-400 border-transparent rounded-3xl hover:bg-transparent hover:border-yellow-300 hover:text-white hover:border">
+                Order Now
+            </a>
+            <a href="#" class="px-8 py-3 mr-4 font-medium duration-300 bg-yellow-400 border-transparent rounded-3xl hover:bg-transparent hover:border-yellow-300 hover:text-white hover:border">Download App <span class="inline-block text-lg rotate-90 ">&#10148;</span></a>
+        </div>
+    </div>
+
+    <!-- Hero Image -->
+    <img src="IMG/Main.png" class="absolute bottom-0 max-w-lg right-20">
+</div>
+
+
+   <!-- About Section -->
+<section id="about" class="py-16 bg-gray-100 px-28">
+    <h2 class="mb-8 text-4xl font-semibold text-center">About Us</h2>
+    <p class="max-w-3xl mx-auto mb-16 text-center text-gray-700">
+        Welcome to our grocery delivery service! We are dedicated to bringing you the freshest produce, quality products, and a convenient shopping experience. Our mission is to save you time and ensure you have all your daily essentials delivered to your doorstep in no time.
+    </p>
+
+    <h2 class="mb-8 text-4xl font-semibold text-center">Our Team</h2>
+    <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <!-- Team Member Card -->
+        <div class="p-6 bg-white rounded-lg shadow-lg hover:bg-yellow-200"">
+            <img src="IMG/Manager.jpg" alt="Manager" class="w-32 h-32 mx-auto rounded-full shadow-md">
+            <h3 class="mt-6 text-xl font-semibold text-center text-gray-800">John Doe</h3>
+            <p class="text-center text-gray-600">Manager</p>
+            <p class="mt-4 text-center text-gray-500">
+                John oversees operations to ensure a seamless shopping experience for every customer.
+            </p>
+        </div>
+
+        <!-- Team Member Card -->
+        <div class="p-6 bg-white rounded-lg shadow-lg hover:bg-yellow-200">
+            <img src="IMG/Assistent1.jpg" alt="Assistant Manager" class="w-32 h-32 mx-auto rounded-full shadow-md">
+            <h3 class="mt-6 text-xl font-semibold text-center text-gray-800">Jane Smith</h3>
+            <p class="text-center text-gray-600">Assistant Manager</p>
+            <p class="mt-4 text-center text-gray-500">
+                Jane specializes in customer satisfaction and logistics management.
+            </p>
+        </div>
+
+        <!-- Team Member Card -->
+        <div class="p-6 bg-white rounded-lg shadow-lg hover:bg-yellow-200">
+            <img src="IMG/staff.jpg" alt="Support Staff" class="w-32 h-32 mx-auto rounded-full shadow-md">
+            <h3 class="mt-6 text-xl font-semibold text-center text-gray-800">Emily Brown</h3>
+            <p class="text-center text-gray-600">Support Staff</p>
+            <p class="mt-4 text-center text-gray-500">
+                Emily ensures timely delivery and smooth communication with our customers.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Features Section -->
+<section id="features" class="py-16 bg-gray-50 px-28">
+    <h2 class="mb-12 text-4xl font-semibold text-center text-gray-800">Features</h2>
+    <div class="grid grid-cols-1 gap-12 md:grid-cols-3">
+        <!-- Feature Card -->
+        <div class="p-6 duration-300 transform bg-yellow-300 border border-gray-200 rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-2">
+            <img src="IMG/fresh_product.jpg" alt="Fresh Products" class="w-24 h-24 mx-auto mb-4 rounded-full shadow-md">
+            <h3 class="mb-2 text-xl font-semibold text-center text-gray-800">Fresh Products</h3>
+            <p class="text-center text-gray-600">
+                Handpicked fresh fruits, vegetables, and essentials delivered straight to your door.
+            </p>
+        </div>
+        
+        <!-- Feature Card -->
+        <div class="p-6 duration-300 transform bg-yellow-300 border border-gray-200 rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-2">
+            <img src="IMG/fast_delivery.jpg" alt="Fast Delivery" class="w-24 h-24 mx-auto mb-4 rounded-full shadow-md">
+            <h3 class="mb-2 text-xl font-semibold text-center text-gray-800">Fast Delivery</h3>
+            <p class="text-center text-gray-600">
+                Get your groceries delivered in under 15 minutes, ensuring freshness and convenience.
+            </p>
+        </div>
+        
+        <!-- Feature Card -->
+        <div class="p-6 duration-300 transform bg-yellow-300 border border-gray-200 rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-2">
+            <img src="IMG/payment.jpg" alt="Secure Payment" class="w-24 h-24 mx-auto mb-4 rounded-full shadow-md">
+            <h3 class="mb-2 text-xl font-semibold text-center text-gray-800">Secure Payment</h3>
+            <p class="text-center text-gray-600">
+                Enjoy a seamless checkout process with multiple secure payment options.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+   <!-- Contact Section -->
+<div class="container min-h-screen bg-[url('./IMG/Back.jpg')] bg-center bg-cover px-6 py-12 lg:px-28 relative">
+    <h2 class="mb-12 text-4xl font-bold text-center text-white">Contact Us</h2>
+
+    <div class="flex flex-col-reverse items-center justify-between max-w-6xl mx-auto lg:flex-row lg:gap-x-16">
+        <!-- Headline -->
+        <h1 class="mb-6 text-5xl font-semibold leading-normal text-white lg:mb-0">
+            Fast, Fresh, and <br> Delivered <span class="font-light"> to Your Doorstep!</span>
+        </h1>
+        
+        <!-- Contact Form -->
+        <form class="w-full max-w-lg p-8 transition-all bg-white rounded-lg shadow-lg lg:w-1/2 animate-fadeIn hover:shadow-2xl">
+            <div class="mb-6">
+                <label for="name" class="block mb-2 text-lg font-medium text-gray-700">
+                    <i class="text-yellow-300 fas fa-user"></i> Your Name
+                </label>
+                <input type="text" id="name" placeholder="Enter your name" class="w-full px-4 py-3 transition duration-300 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-yellow-300 hover:shadow-md">
+            </div>
+            <div class="mb-6">
+                <label for="email" class="block mb-2 text-lg font-medium text-gray-700">
+                    <i class="text-yellow-300 fas fa-envelope"></i> Email Address
+                </label>
+                <input type="email" id="email" placeholder="Enter your email" class="w-full px-4 py-3 transition duration-300 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-yellow-300 hover:shadow-md">
+            </div>
+            <div class="mb-6">
+                <label for="message" class="block mb-2 text-lg font-medium text-gray-700">
+                    <i class="text-yellow-300 fas fa-comment-dots"></i> Message
+                </label>
+                <textarea id="message" rows="4" placeholder="Write your message here" class="w-full px-4 py-3 transition duration-300 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-yellow-300 hover:shadow-md"></textarea>
+            </div>
+            <button class="w-full px-8 py-3 font-semibold text-white transition-all duration-300 rounded-lg shadow-md bg-gradient-to-r from-yellow-400 to-yellow-600 hover:bg-yellow-500 hover:shadow-lg">
+                <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+        </form>
+
+        <!-- Image and Visual Enhancements -->
+        <div class="relative flex flex-col justify-center mt-10 text-center lg:w-1/2 lg:mt-0">
+            <div class="absolute inset-0 opacity-50 bg-gradient-to-t from-black to-transparent"></div> <!-- Background gradient overlay -->
+            <img src="IMG/grocery.jpg" alt="Contact Us" class="w-full h-auto transition duration-500 transform rounded-lg shadow-lg hover:scale-105">
+            <div class="absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-300 opacity-0 hover:opacity-100">
+                <h3 class="mb-4 text-3xl font-bold text-white">We'd Love to Hear From You!</h3>
+                <p class="text-lg text-white">Reach out for any inquiries or assistance!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <footer class="py-8 text-white bg-gray-800">
+        <div class="container grid grid-cols-1 gap-8 mx-auto px-28 md:grid-cols-4">
+            <!-- Logo and Description -->
+<div class="flex flex-col items-center text-center lg:items-start lg:text-left">
+    <img src="IMG/logo (2).png" alt="Logo" class="w-56 mb-0.5">
+    
+   
+</div>
+
+    
+            <!-- Quick Links -->
+            <div>
+                <h3 class="mb-4 text-lg font-medium">Quick Links</h3>
+                <ul>
+                    <li class="mb-2"><a href="#" class="text-gray-400 hover:text-yellow-300">Home</a></li>
+                    <li class="mb-2"><a href="#about" class="text-gray-400 hover:text-yellow-300">About Us</a></li>
+                    <li class="mb-2"><a href="#features" class="text-gray-400 hover:text-yellow-300">Features</a></li>
+                    <li class="mb-2"><a href="#contact" class="text-gray-400 hover:text-yellow-300">Contact</a></li>
+                </ul>
+            </div>
+    
+            <!-- Contact Info -->
+            <div>
+                <h3 class="mb-4 text-lg font-medium">Contact Us</h3>
+                <p class="mb-2 text-gray-400">Email: support@Yoyogroceries.com</p>
+                <p class="mb-2 text-gray-400">Phone: +1 234 567 890</p>
+                <p class="text-gray-400">Address: 123 Main Street, New City, Sri Lanka</p>
+            </div>
+    
+            <!-- Social Media -->
+<div>
+    <h3 class="mb-4 text-lg font-medium">Follow Us</h3>
+    <div class="flex space-x-4">
+        <a href="#" class="text-gray-400 hover:text-yellow-300">
+            <i class="text-xl fab fa-twitter"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-yellow-300">
+            <i class="text-xl fab fa-instagram"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-yellow-300">
+            <i class="text-xl fab fa-linkedin"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-yellow-300">
+            <i class="text-xl fab fa-facebook"></i>
+        </a>
+    </div>z
+</div>
+
+        </div>
+        <div class="mt-8 text-center text-gray-500">
+            <p>&copy; 2024 Groceries. All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
+

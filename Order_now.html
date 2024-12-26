@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now</title>
+    <!-- Tailwind CSS CDN Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="container relative min-h-screen py-3 px-28" style="background-image: url('./IMG/Back.jpg'); background-position: center; background-size: cover;">
+        <!-- Content here -->
+    
+    
+        <nav class="flex items-center justify-between mb-5">
+            <!-- Logo -->
+            <img src="IMG/logo (2).png" class="w-56 cursor-pointer">
+            
+            <!-- Navigation Links -->
+            <ul class="flex-1 text-center">
+                <li class="inline-block px-5 list-none">
+                    <a href="#" class="text-white no-underline hover:text-yellow-300">Home</a>
+                </li>
+                <li class="inline-block px-5 list-none">
+                    <a href="#about" class="text-white no-underline hover:text-yellow-300">About</a>
+                </li>
+                <li class="inline-block px-5 list-none">
+                    <a href="#features" class="text-white no-underline hover:text-yellow-300">Features</a>
+                </li>
+                <li class="inline-block px-5 list-none">
+                    <a href="#contact" class="text-white no-underline hover:text-yellow-300">Contact</a>
+                </li>
+            </ul>
+            
+            <!-- Cart Icon -->
+        <img src="IMG/cart1.png" class="w-8 mr-4 cursor-pointer">
+
+        <!-- Login and Register Buttons -->
+<div class="space-x-3">
+    <!-- Login Button -->
+    <a href="Login.html" class="px-4 py-2 text-sm font-medium text-white bg-yellow-400 border border-yellow-400 rounded hover:bg-transparent hover:text-yellow-400">
+        Login
+    </a>
+
+    <!-- Register Button -->
+    <a href="#register" class="px-4 py-2 text-sm font-medium text-yellow-400 border border-yellow-400 rounded hover:bg-yellow-400 hover:text-white">
+        Register
+    </a>
+</div>
+        </nav>
+
+    
+
+    <!-- Order Now Section -->
+    
+        <div class="container px-4 mx-auto text-center">
+            <h2 class="mb-4 text-4xl font-bold text-white">Order Now</h2>
+            <p class="mb-8 text-xl text-white">Select your favorite items and proceed to checkout!</p>
+
+            <!-- Product List -->
+            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                <div class="p-4 text-center bg-white rounded-lg shadow-lg">
+                    <img src="IMG/milk-powder.png" alt="Product 1" class="object-cover w-full h-48 mb-4 rounded-lg">
+                    <h3 class="text-xl font-semibold">Milk Powder</h3>
+                    <p class="text-gray-500">$10.00</p>
+                    <button class="px-6 py-2 mt-4 text-white bg-yellow-400 rounded-lg hover:bg-yellow-500">Add to Cart</button>
+                </div>
+
+                <div class="p-4 text-center bg-white rounded-lg shadow-lg">
+                    <img src="IMG/Nutella1.png" alt="Product 2" class="object-cover w-full h-48 mb-4 rounded-lg">
+                    <h3 class="text-xl font-semibold">Nutella</h3>
+                    <p class="text-gray-500">$12.00</p>
+                    <button class="px-6 py-2 mt-4 text-white bg-yellow-400 rounded-lg hover:bg-yellow-500">Add to Cart</button>
+                </div>
+
+                <div class="p-4 text-center bg-white rounded-lg shadow-lg">
+                    <img src="IMG/Noodles.png" alt="Product 3" class="object-cover w-full h-48 mb-4 rounded-lg">
+                    <h3 class="text-xl font-semibold">Instance Noodles</h3>
+                    <p class="text-gray-500">$15.00</p>
+                    <button class="px-6 py-2 mt-4 text-white bg-yellow-400 rounded-lg hover:bg-yellow-500">Add to Cart</button>
+                </div>
+
+                <div class="p-4 text-center bg-white rounded-lg shadow-lg">
+                    <img src="IMG/happy_cow.png" alt="Product 4" class="object-cover w-full h-48 mb-4 rounded-lg">
+                    <h3 class="text-xl font-semibold">Cheese</h3>
+                    <p class="text-gray-500">$20.00</p>
+                    <button class="px-6 py-2 mt-4 text-white bg-yellow-400 rounded-lg hover:bg-yellow-500">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Order Summary -->
+            <div class="max-w-3xl p-6 mx-auto mt-12 bg-white rounded-lg shadow-xl">
+                <h3 class="mb-4 text-2xl font-semibold text-center">Order Summary</h3>
+                <div class="flex justify-between mb-4">
+                    <span class="font-medium">Milk Powder</span>
+                    <span>$10.00</span>
+                </div>
+                <div class="flex justify-between mb-4">
+                    <span class="font-medium">Nutella</span>
+                    <span>$12.00</span>
+                </div>
+                <div class="flex justify-between mb-4">
+                    <span class="font-medium">Instance Noodles</span>
+                    <span>$15.00</span>
+                </div>
+                <div class="flex justify-between mb-4">
+                    <span class="font-medium">Cheese</span>
+                    <span>$20.00</span>
+                </div>
+                <div class="flex justify-between font-bold">
+                    <span>Total</span>
+                    <span>$57.00</span>
+                </div>
+                <button class="w-full py-3 mt-6 text-white bg-yellow-400 rounded-lg hover:bg-yellow-500">Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
